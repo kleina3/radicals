@@ -1,0 +1,9 @@
+Edits made to kanjidic2.xml:
+    Removed xml elements, leaving only the kanji and the grade on the same line
+    Some kanji had no grade association, so I made those grade 11
+    Edited file is called kanjitrim.txt
+
+Edits made to kradfile:
+    Deleted preface to make parsing easier
+    Used dataTrimmer.py and kanjitrim.txt to parse kradfile into kradfile1, kradfile2, and so on
+    Each split has only the kanji used by that grade level
